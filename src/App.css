@@ -56,7 +56,7 @@
 }
 
 .bottom_img {
-  max-width:85%;
+  max-width:80%;
 }
 
 .image_stack_top {
@@ -68,7 +68,7 @@
 }
 
 .top_img {
-  width: 35%;
+  width: 45%;
 }
 
 .ml1 {
@@ -105,11 +105,11 @@
 
 @media screen and (max-width:600px) {
   .bottom_img {
-    max-width:100%;
+    max-width:95%;
   }
 
   .top_img {
-    width: 50%;
+    width: 80%;
   }
 }
 

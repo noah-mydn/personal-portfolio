@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { Box, Button, Typography } from '@mui/material'
+import { Box, Button, Typography, Link } from '@mui/material'
 import anime from 'animejs/lib/anime.es.js'
 import React from 'react'
 import { theme } from '../style/theme'
@@ -127,21 +127,25 @@ export const About = ({isMobile, isTablet}) => {
                     ))}
                   </Box>
                   <Box width='100%' py={2} mt={4} display='flex' justifyContent='center'>
-                    <Button download='../assets/resume.pdf' mt={3} mb={2} size={isMobile ? 'small' : 'large'}
-                    sx={{
-                      padding:'0.3em 1.3em',
-                      border:'1px solid transparent',
-                      background:theme.palette.primary.dark,
-                      color:theme.palette.text.main,
-                      fontSize:18,
-
-                      '&:hover' : {
-                        background:'transparent',
-                        border:`1px solid ${theme.palette.primary.dark}` 
-                      }
+                    <Link href='../assets/resume.pdf' download='May Yadanar Resume' sx={{
+                      textDecoration:'none',
                     }}>
-                      Download Resume
-                    </Button>
+                      <Button mt={3} mb={2} size={isMobile ? 'small' : 'large'}
+                      sx={{
+                        padding:'0.3em 1.3em',
+                        border:'1px solid transparent',
+                        background:theme.palette.primary.dark,
+                        color:theme.palette.text.main,
+                        fontSize:18,
+
+                        '&:hover' : {
+                          background:'transparent',
+                          border:`1px solid ${theme.palette.primary.dark}` 
+                        }
+                      }}>
+                        Download Resume
+                      </Button>
+                    </Link>
                   </Box>
               </OuterStyledBox>
             </Box>

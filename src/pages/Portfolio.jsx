@@ -143,7 +143,10 @@ const observer = new IntersectionObserver((entries)=>{
                                                 alt={project.title}
                                                 src={project.desktop_image} 
                                                 effect='blur'
-                                                delayTime='1000'
+                                                height='auto'
+                                                delayTime='3000'
+                                                delayMethod='debounce'
+                                                placeholderSrc='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png'
                                                 className='bottom_img' />
                                                 {/* <img src={project.desktop_image} alt={project.title} loading='lazy'/> */}
                                             </div>
@@ -152,7 +155,10 @@ const observer = new IntersectionObserver((entries)=>{
                                                 alt={project.title}
                                                 src={project.phone_image} 
                                                 effect='blur'
-                                                delayTime='1000'
+                                                height='auto' 
+                                                delayTime='3000'                                              
+                                                delayMethod='debounce'
+                                                placeholderSrc='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png'
                                                 className='top_img'
                                                 width={isMobile ? '50%' : '80%'} />
                                                {/* <img src={project.phone_image} alt={project.title} loading='lazy'/>  */}
