@@ -1,0 +1,16 @@
+/* Start with a dark background color */
+body {
+  background:linear-gradient(180.2deg, rgb(25, 28, 43) 6.8%, rgb(24, 39, 46) 131%); 
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+.star-container {
+ position: relative;
+}
+
+
+
+
+
