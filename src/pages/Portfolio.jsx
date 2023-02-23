@@ -61,8 +61,7 @@ const observer = new IntersectionObserver((entries)=>{
      margin:'0.5em',
 
      [theme.breakpoints.down('sm')] : {
-        fontSize:14,
-        margin:'0.5em 0.3em'
+        margin:'0.5em 0.35em'
      }
    });
 
@@ -114,7 +113,7 @@ const observer = new IntersectionObserver((entries)=>{
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:1.5}}>
-                <Box width='100%' id='portfolio' minHeight='100vh' mt={3} my={2} pt={8}>
+                <Box width='100%' id='portfolio' minHeight='100vh' mt={3} mb={2} pt={8}>
                 <Box
                     display='block'
                     width='100%'
@@ -139,36 +138,17 @@ const observer = new IntersectionObserver((entries)=>{
                                 <CardContent>
                                     <ImageContainer>
                                             <div class="image_stack_bottom">
-                                            <LazyLoadImage
-                                                alt={project.title}
-                                                src={project.desktop_image} 
-                                                effect='blur'
-                                                height='auto'
-                                                delayTime='3000'
-                                                delayMethod='debounce'
-                                                placeholderSrc='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png'
-                                                className='bottom_img' />
-                                                {/* <img src={project.desktop_image} alt={project.title} loading='lazy'/> */}
+                                                <img src={project.desktop_image} alt={project.title} loading='lazy' width='90%' height='auto'/>
                                             </div>
                                             <div class="image_stack_top">
-                                            <LazyLoadImage
-                                                alt={project.title}
-                                                src={project.phone_image} 
-                                                effect='blur'
-                                                height='auto' 
-                                                delayTime='3000'                                              
-                                                delayMethod='debounce'
-                                                placeholderSrc='https://reactnativecode.com/wp-content/uploads/2018/02/Default_Image_Thumbnail.png'
-                                                className='top_img'
-                                                width={isMobile ? '50%' : '80%'} />
-                                               {/* <img src={project.phone_image} alt={project.title} loading='lazy'/>  */}
+                                               <img src={project.phone_image} alt={project.title} loading='lazy' width='100%' height='auto'/> 
                                             </div>
                                     </ImageContainer>
                                     <Typography variant='h6' color={theme.palette.text.main} 
                                     textAlign='center' gutterBottom pt={4}>
                                         {project.title}
                                     </Typography>
-                                    <Box display='flex' justifyContent='center' width='100%'>
+                                    <Box display='flex' justifyContent='center' width='100%' flexWrap='wrap'>
                                         <LanguageBox>{project.codeLang}</LanguageBox>
                                         <LanguageBox>{project.framework[0]}</LanguageBox>
                                         {project.framework[1] && <LanguageBox>{project.framework[1]}</LanguageBox>}

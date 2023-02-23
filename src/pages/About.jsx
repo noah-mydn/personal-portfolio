@@ -7,7 +7,7 @@ import {motion} from 'framer-motion'
 
 export const About = ({isMobile, isTablet}) => {
 
-  const skills = ['HTML5', 'CSS3', 'JavaScript' , 'Jquery' , 'React', 'Bootstrap', 'MUI', 'Angular6', 'NodeJS', 'Python']
+  const skills = ['HTML5', 'CSS3', 'JavaScript' , 'Jquery' , 'React', 'Bootstrap', 'MUI', 'Angular', 'mySQL', 'Python']
 
 
   React.useEffect(()=>{

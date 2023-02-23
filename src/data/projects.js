@@ -1,7 +1,7 @@
 export const PROJECTS = [
     {
         id:1,
-        title:'Cosmetics Ecommerce Site',
+        title:'Hera - Ecommerce Site',
         desktop_image:'./assets/hera_2.png',
         phone_image:'./assets/hera.png',
         codeLang:'React',
@@ -12,21 +12,23 @@ export const PROJECTS = [
 
 
     {   id:2,
-        title:'Easybank Landing Page',
-        desktop_image:'./assets/easybank_2.png',
-        phone_image:'./assets/easybank.png',
+        title:'Apollo - Music Streaming Site',
+        desktop_image:'./assets/apollo.png',
+        phone_image:'./assets/apollo_2.png',
         codeLang:'React',
         framework:['MUI'],
-        demoLink:'https://easybank-landing-page-noah.netlify.app',
+        api:'Spotify API',
+        demoLink:'https://apollo-noah.netlify.app',
     },
 
-    {   id:3,
-        title:'Space Tourism Website',
-        desktop_image:'./assets/space_2.png',
-        phone_image:'./assets/space.png',
-        codeLang:'React',
-        framework:['Bootstrap','MUI'],
-        demoLink:'https://noah-space-tourism.netlify.app/',
+     {   id:3,
+         title:'Thoth - Quiz Website',
+         desktop_image:'./assets/thoth_2.png',
+         phone_image:'./assets/thoth.png',
+         codeLang:'Angular',
+         framework:['Bootstrap'],
+         api:'Trivia API',
+         demoLink:'https://thoth-quiz.netlify.app/',
         },
 
     
