@@ -1,6 +1,5 @@
 import styled from '@emotion/styled'
 import { Box, Button, Card, CardActionArea, CardContent, Typography } from '@mui/material'
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import anime from 'animejs';
 import React from 'react'
 import { PROJECTS } from '../data/projects';

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.619f5b14.css",
-    "main.js": "/static/js/main.1008e4d3.js",
+    "main.css": "/static/css/main.e181ee26.css",
+    "main.js": "/static/js/main.f8c820ef.js",
     "static/media/AquireBold.otf": "/static/media/AquireBold.cfc5ce07bacb3e5972c3.otf",
     "index.html": "/index.html",
-    "main.619f5b14.css.map": "/static/css/main.619f5b14.css.map",
-    "main.1008e4d3.js.map": "/static/js/main.1008e4d3.js.map"
+    "main.e181ee26.css.map": "/static/css/main.e181ee26.css.map",
+    "main.f8c820ef.js.map": "/static/js/main.f8c820ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.619f5b14.css",
-    "static/js/main.1008e4d3.js"
+    "static/css/main.e181ee26.css",
+    "static/js/main.f8c820ef.js"
   ]
 }
