@@ -7,7 +7,7 @@ import {motion} from 'framer-motion'
 
 export const About = ({isMobile, isTablet}) => {
 
-  const skills = ['HTML5', 'CSS3', 'JavaScript' , 'Jquery' , 'React', 'Bootstrap', 'MUI', 'Angular', 'mySQL', 'Python']
+  const skills = ['HTML5', 'CSS3', 'JavaScript' , 'Jquery' , 'React', 'Bootstrap', 'MUI', 'Angular', 'MySQL', 'MongoDB', 'NodeJS', 'ExpressJS', 'Python']
 
 
   React.useEffect(()=>{
@@ -114,7 +114,7 @@ export const About = ({isMobile, isTablet}) => {
 
                   </Typography>
                   <Typography variant='h5' textAlign='left' gutterBottom color={theme.palette.text.main}>My Skills</Typography>
-                  <Box display='flex' justifyContent='space-around' border='1px solid white'
+                  <Box display='flex' justifyContent='space-evenly' border='1px solid white'
                   flexWrap='wrap' px={2} py={4} mt={2}>
                     {skills.map((skill)=> (
                         <Box display='flex'  px={2} py={0.3} my={1} bgcolor={theme.palette.primary.dark}                

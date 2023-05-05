@@ -34,7 +34,7 @@ export const SOCIALS = [
 
     {id:1,
     icon:<Twitter/>,
-    link:'https://twitter.com/noah_mydn'},
+    link:'https://twitter.com/noah_ydn'},
 
     {id:1,
     icon:<GitHub/>,
