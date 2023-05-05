@@ -28,8 +28,8 @@ export const Home = ({ isMobile, isTablet }) => {
           width="100%"
         >
           <Typography
-            variant="h4"
-            component="h4"
+            variant="h3"
+            component="h3"
             gutterBottom
             width="98%"
             sx={{
@@ -49,7 +49,7 @@ export const Home = ({ isMobile, isTablet }) => {
                 textAlign: "center",
                 width: { sm: "90%", md: "85%" },
                 color: theme.palette.primary.main,
-                fontSize: isMobile ? "0.9em" : isTablet ? "1.5em" : "2em",
+                fontSize: isMobile ? "0.9em" : isTablet ? "1.5em" : "1.8em",
               }}
             />
           </Typography>
